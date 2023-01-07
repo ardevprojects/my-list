@@ -1,0 +1,31 @@
+.users-list {
+    list-style: none;
+    padding-left: 0;
+    min-width: 240px;
+}
+
+.users-list li {
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.users-list li:hover {
+    background-color: pink;
+}
+
+.users-list li button {
+    position: absolute;
+    right: 12px;
+    font-weight: 900;
+    background-color: transparent;
+    border: transparent;
+}
+
+.users-list li button:hover {
+    color: red;
+    cursor: pointer;
+}
